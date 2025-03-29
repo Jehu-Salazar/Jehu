@@ -24,5 +24,14 @@ class pila:
 p=pila()
 p.push(4)
 p.push(9)
+p.push(2)
+p.push(9)
+p.push(0)
+print("-------------------")
+
+p.isempty()
+print("-------------------")
+p.pop()
+
 
 print(p)
