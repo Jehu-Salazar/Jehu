@@ -20,7 +20,8 @@ class pila:
             columna+= str(item)+ "\n"
         return columna
 
-    
+print("HACIENDO UN CAMBIO PARA EL SEGUNDO COMIT ")
+
 p=pila()
 p.push(4)
 p.push(9)
