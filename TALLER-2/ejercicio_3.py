@@ -20,9 +20,21 @@ class pila:
             columna+= str(item)+ "\n"
         return columna
 
-    
+print("HACIENDO UN CAMBIO PARA EL SEGUNDO COMIT ")
+
+print("este va ser el tercer commit ")
+
 p=pila()
 p.push(4)
 p.push(9)
+p.push(2)
+p.push(9)
+p.push(0)
+print("-------------------")
+
+p.isempty()
+print("-------------------")
+p.pop()
+
 
 print(p)
